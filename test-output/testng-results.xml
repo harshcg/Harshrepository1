@@ -1,0 +1,84 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo" duration-ms="851" started-at="2016-05-03T20:30:32Z" finished-at="2016-05-03T20:30:33Z">
+    <groups>
+    </groups>
+    <test name="Yahoo RegisterTest" duration-ms="10" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+      <class name="test.YahooTest">
+        <test-method status="PASS" signature="initializeselenium()" name="initializeselenium" is-config="true" duration-ms="60" started-at="2016-05-03T20:30:32Z" finished-at="2016-05-03T20:30:32Z">
+        </test-method>
+        <test-method status="PASS" signature="shutdownselenium()" name="shutdownselenium" is-config="true" duration-ms="2" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+      </class>
+      <class name="test.YahooRegistrationTest">
+        <test-method status="PASS" signature="testMailSending(java.lang.String, java.lang.Integer, java.lang.String)" name="testMailSending" duration-ms="1" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[howzz life]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testMailSending(java.lang.String, java.lang.Integer, java.lang.String)" name="testMailSending" duration-ms="1" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[life is good]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+    <test name="Yahoo News Test" duration-ms="17" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+      <class name="test.YahooNewsTest">
+        <test-method status="PASS" signature="xyz()" name="xyz" is-config="true" duration-ms="0" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+        <test-method status="PASS" signature="testnews()" name="testnews" duration-ms="7" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+      </class>
+    </test>
+    <test name=" Yahoo Mail Test" duration-ms="18" started-at="2016-05-03T20:30:32Z" finished-at="2016-05-03T20:30:33Z">
+      <class name="test.YahooTest">
+        <test-method status="PASS" signature="connetdb()" name="connetdb" is-config="true" duration-ms="0" started-at="2016-05-03T20:30:32Z" finished-at="2016-05-03T20:30:32Z">
+        </test-method>
+        <test-method status="PASS" signature="openbrowser()" name="openbrowser" is-config="true" duration-ms="1" started-at="2016-05-03T20:30:32Z" finished-at="2016-05-03T20:30:32Z">
+        </test-method>
+        <test-method status="PASS" signature="testReceiveMail()" name="testReceiveMail" duration-ms="1" started-at="2016-05-03T20:30:32Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+        <test-method status="PASS" signature="cloasebrowwser()" name="cloasebrowwser" is-config="true" duration-ms="1" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+        <test-method status="PASS" signature="testSendMail()" name="testSendMail" duration-ms="1" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+        <test-method status="PASS" signature="openbrowser()" name="openbrowser" is-config="true" duration-ms="0" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+        <test-method status="PASS" signature="cloasebrowwser()" name="cloasebrowwser" is-config="true" duration-ms="0" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+        <test-method status="PASS" signature="closedb()" name="closedb" is-config="true" duration-ms="1" started-at="2016-05-03T20:30:33Z" finished-at="2016-05-03T20:30:33Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
